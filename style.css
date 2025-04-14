@@ -1,0 +1,113 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  background: linear-gradient(to right, #f0f4ff, #fdfdff);
+  color: #333;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+header {
+  background: url('https://via.placeholder.com/1920x500') center/cover no-repeat;
+  color: white;
+  padding: 80px 20px;
+  text-align: center;
+  animation: fadeInDown 1s ease;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+header h1 {
+  margin: 0;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+header p {
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+section {
+  padding: 60px 0;
+  text-align: center;
+}
+
+.about h2, .projects h2, .links h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #007aff;
+}
+
+.about p {
+  max-width: 700px;
+  margin: auto;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.highlight-box {
+  background-color: #fff;
+  border-left: 6px solid #00c6ff;
+  padding: 20px;
+  margin-top: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 118, 255, 0.1);
+}
+
+.highlight-box h3 {
+  color: #007aff;
+  margin: 0 0 10px;
+}
+
+.projects .card {
+  background: #fff;
+  box-shadow: 0 4px 12px rgba(0, 118, 255, 0.1);
+  border-radius: 10px;
+  margin: 15px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.projects .card:hover {
+  transform: translateY(-10px);
+}
+
+.projects .card-img {
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+}
+
+.projects .card-content {
+  padding: 20px;
+}
+
+.projects .card-content h3 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.projects .card-content p {
+  font-size: 16px;
+  color: #555;
+}
+
+.links .buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.btn {
+  text-decoration: none;
+  background-color: #007aff;
+ 
